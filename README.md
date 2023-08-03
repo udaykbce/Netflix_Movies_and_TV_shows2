@@ -65,8 +65,8 @@ This cleaned data is then used to conduct EDA in order to understand it better a
 
 Once obtained the required insights from the EDA, we start with Pre-processing the text data by removing the punctuation, and, stop words. This filtered data is passed through TF - IDF Vectorizer since we are conducting a text-based clustering and the model needs the data to be vectorized in order to predict the desired results.
 
-Finally, K–Means clustering is utilized to form 10 distinct clusters with similar data points.
+Finally, K–Means clustering and Agglomerative clustering are utilized to form distinct clusters with similar data points.
 
-Using the data provided, we also implemented a simple recommender system that successfully generates Ten similar Movies or Tv-Shows for the given title.
+Using the data provided, I also implemented a simple recommender system that successfully generates Ten similar Movies or Tv-Shows for the given title.
 
 
