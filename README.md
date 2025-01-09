@@ -46,10 +46,10 @@
     * Removing Stopwords 
     * Removing Punctuation
     * Stemming
-* Clustring
+* Clustering
     * PCA
     * Elbow and Silhouette Method
-    * K-Means Clustring 
+    * K-Means Clustering 
 * Inference
   
 # Project Overview
@@ -63,10 +63,18 @@ After loading the data, we start by observing the first and last five values to 
 
 This cleaned data is then used to conduct EDA in order to understand it better and identify the underlying trends.
 
-Once obtained the required insights from the EDA, we start with Pre-processing the text data by removing the punctuation, and, stop words. This filtered data is passed through TF - IDF Vectorizer since we are conducting a text-based clustering and the model needs the data to be vectorized in order to predict the desired results.
+Once we obtained the required insights from the EDA, we started with Pre-processing the text data by removing the punctuation and stop words. This filtered data is passed through TF - IDF Vectorizer since we are conducting a text-based clustering and the model needs the data to be vectorized to predict the desired results.
 
 Finally, K–Means clustering and Agglomerative clustering are utilized to form distinct clusters with similar data points.
 
 Using the data provided, I also implemented a simple recommender system that successfully generates Ten similar Movies or Tv-Shows for the given title.
 
 
+# Why This Analysis is Useful:
+
+Business Insights:
+* Netflix can use the findings to tailor its strategy for regional content availability and decide whether to continue investing more in TV shows or movies.
+Content Recommendation:
+* By clustering content, Netflix can improve its recommendation system, helping users discover similar content they might enjoy.
+Data-Driven Decision Making:
+* The analysis enables Netflix to identify content trends, adjust their production/acquisition strategies, and better cater to audience preferences.
