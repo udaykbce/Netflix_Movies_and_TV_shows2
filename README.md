@@ -74,7 +74,9 @@ Using the data provided, I also implemented a simple recommender system that suc
 
 Business Insights:
 * Netflix can use the findings to tailor its strategy for regional content availability and decide whether to continue investing more in TV shows or movies.
+
 Content Recommendation:
 * By clustering content, Netflix can improve its recommendation system, helping users discover similar content they might enjoy.
+
 Data-Driven Decision Making:
 * The analysis enables Netflix to identify content trends, adjust their production/acquisition strategies, and better cater to audience preferences.
